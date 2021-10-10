@@ -10,13 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.U2PrimerApp">
         <activity
+            android:name=".ResultadoImcActivity"
+            android:exported="true"
+            android:label="Resultados IMC"/>
+
+        <activity
             android:name=".ResultadoIvaActivity"
-            android:label="Resultados IVA"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Resultados IVA" />
         <activity
             android:name=".ResultadoCirculoActivity"
-            android:label="Resultados Circulo"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Resultados Circulo" />
         <activity
             android:name=".IcmActivity"
             android:exported="true"

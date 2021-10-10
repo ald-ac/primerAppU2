@@ -1,10 +1,13 @@
 package com.appsmoviles.u2primerapp.model;
 
+import androidx.annotation.NonNull;
+
 public class Persona {
     private String nombre;
     private Double estatura;
     private int peso;
     private String procedencia;
+    private Double imc;
 
     public Persona() {
         nombre = "";
@@ -43,5 +46,19 @@ public class Persona {
 
     public void setProcedencia(String procedencia) {
         this.procedencia = procedencia;
+    }
+
+    public Double getImc() {
+        return imc;
+    }
+
+    public void setImc(Double imc) {
+        this.imc = imc;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return nombre;
     }
 }

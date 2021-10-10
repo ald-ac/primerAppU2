@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.2265625" />
         <entry key="app/src/main/res/drawable/circulo_icono.xml" value="0.1648148148148148" />
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.17407407407407408" />
         <entry key="app/src/main/res/drawable/imc_icono.xml" value="0.1648148148148148" />
@@ -14,11 +15,14 @@
         <entry key="app/src/main/res/layout/activity_iva.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/layout/activity_resultado_circulo.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_resultado_imc.xml" value="0.2265625" />
         <entry key="app/src/main/res/layout/activity_resultado_iva.xml" value="0.67" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.11322463768115942" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/spinner_dropdown_item.xml" value="0.2265625" />
+        <entry key="app/src/main/res/layout/spinner_item.xml" value="0.2265625" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/menu/main.xml" value="0.21145833333333333" />
       </map>

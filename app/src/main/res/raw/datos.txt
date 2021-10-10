@@ -1,0 +1,5 @@
+Juan Carlos:1.80:75:Zacatepec
+Maria Luisa:1.60:55:Cuernavaca
+Pedro:1.70:85:Jojutla
+Ana Lilia:1.68:60:Xoxocotla
+Luis Javier:1.75:70:Cuautla
