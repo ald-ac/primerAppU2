@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeFragment">
+
+    <activity
+        android:id="@+id/circuloActivity"
+        android:name="com.appsmoviles.u2primerapp.CirculoActivity"
+        android:label="Circulote"
+        tools:layout="@layout/activity_circulo" />
+    <activity
+        android:id="@+id/ivaActivity"
+        android:name="com.appsmoviles.u2primerapp.IvaActivity"
+        android:label="activity_iva"
+        tools:layout="@layout/activity_iva" />
+    <activity
+        android:id="@+id/icmActivity"
+        android:name="com.appsmoviles.u2primerapp.IcmActivity"
+        android:label="activity_icm"
+        tools:layout="@layout/activity_icm" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.appsmoviles.u2primerapp.ui.home.HomeFragment"
+        android:label="Bienvenida"
+        tools:layout="@layout/fragment_home" />
+</navigation>
