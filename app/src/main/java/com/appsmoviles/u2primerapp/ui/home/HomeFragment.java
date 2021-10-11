@@ -32,7 +32,7 @@ public class HomeFragment extends Fragment {
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+                textView.setText("Selecciona una opción del Drawer Menu para ejecutar una activity");
             }
         });
         return root;
